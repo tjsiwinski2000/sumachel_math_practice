@@ -9,7 +9,7 @@ GOAL:
 
 Phase1
 Create a lambda function
-- lambda_function.py
+- [lambda_function.py](https://github.com/tjsiwinski2000/sumachel_math_practice/blob/main/lambda_function.py) 
 - accepts two inputs: N, M
 - returns M problems with solution e.g. 5 * 2,10 
 
@@ -19,7 +19,7 @@ API-GATEWAY:   https://1z02i6c3v1.execute-api.us-west-1.amazonaws.com/dev
 AMPLIFY SITE:  https://staging.dktvk9ol5owrw.amplifyapp.com/
 
 Phase3
-Create index.html with javascript
+Create [index.html](https://github.com/tjsiwinski2000/sumachel_math_practice/blob/main/index.html) with javascript
 Javascript callse the API-Gateway->Lambda
 Display content on the webpage 
 - e.g. 8 * -1 = []  -8
