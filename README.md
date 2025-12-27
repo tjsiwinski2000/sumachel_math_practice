@@ -14,7 +14,7 @@ Create a lambda function
 - returns M problems with solution e.g. 5 * 2,10 
 
 Phase2
--Connect lambda to [API-GATEWAY](https://1z02i6c3v1.execute-api.us-west-1.amazonaws.com/dev) 
+- Connect lambda to [API-GATEWAY](https://1z02i6c3v1.execute-api.us-west-1.amazonaws.com/dev) 
 - Create [AMPLIFY SITE](https://staging.dktvk9ol5owrw.amplifyapp.com/) .
 
 Phase3
