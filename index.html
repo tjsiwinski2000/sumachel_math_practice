@@ -2,7 +2,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>To the Power of Math!</title>
+    <title>Math Practice</title>
     <!-- Styling for the client UI -->
     <style>
     h1 {
@@ -55,14 +55,14 @@
     </style>
 </head>
     <body>
-        <h1>Sumachel :  MATH!</h1>
+        <h1> MATH Pracice [Codename: Sumachel] </h1>
         <form>
             <label>Number of Problems:</label>
-            <input type="text" id="base">
+            <input type="text" id="number_problems">
             <label>..Max Value:</label>
-            <input type="text" id="exponent">
+            <input type="text" id="max_number">
             <!-- set button onClick method to call function we defined passing input values as parameters -->
-            <button type="button" onclick="callAPI(document.getElementById('base').value,document.getElementById('exponent').value)">CALCULATE</button>
+            <button type="button" onclick="callAPI(document.getElementById('number_problems').value,document.getElementById('max_number').value)">CALCULATE</button>
             <!--<p  style="font-size:50px;color:white" class="js-problems" ></p> -->
             <table style="font-size:50px;color:white" class="js-problems" ></table>
         </form>
