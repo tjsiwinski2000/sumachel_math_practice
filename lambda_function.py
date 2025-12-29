@@ -26,7 +26,7 @@ def generate_math_problem(max):
     elif operation == '/':
         num1 = num1 * num2
         problem = f"{num1} / {num2}"
-        solution = round(num1 / num2, 2)  # Rounded to 2 decimal places
+        solution = int(num1 / num2)  #1229-2025 cast to INT instead of FLOAT
 
     return problem, solution
 
@@ -46,3 +46,4 @@ def lambda_handler(event, context):
 
 
 
+#
